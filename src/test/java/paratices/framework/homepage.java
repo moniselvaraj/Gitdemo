@@ -47,6 +47,8 @@ public class homepage extends resource.base{
 
 		log.info(text);
 		
+		
+		
 		lp.gobutton1().click();
 		//ForgotPassword fp= lp.forgotPassword();
 		//fp.getEmail().sendKeys("xxx");
