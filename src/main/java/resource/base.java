@@ -26,12 +26,15 @@ public WebDriver driver;
 		{
 			System.setProperty("webdriver.chrome.driver", "C:\\Users\\Monisha\\Downloads\\chromedriver.exe");
 			 driver =new ChromeDriver();
+				System.out.println("chrome open page");
+
 			
 		}
 		else if(browname.equals("firefox"))
 		{
 			System.setProperty("webdriver.gecko.driver","C:\\Users\\Monisha\\Downloads\\geckodriver-v0.26.0-win64\\geckodriver.exe");
 			 driver= new FirefoxDriver();
+				System.out.println("firefox open  page");
 		}
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		return driver;

@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 public class landingpage {
-
+	
 	public WebDriver driver;
 	By signin=By.xpath("//span[contains(text(),'Hello, Sign in')]");
 	public landingpage(WebDriver driver) {
@@ -19,5 +19,7 @@ public class landingpage {
 	public loginpage getLogin() {
 		// TODO Auto-generated method stub
 		return null;
-	}
+	
+}
+
 }
