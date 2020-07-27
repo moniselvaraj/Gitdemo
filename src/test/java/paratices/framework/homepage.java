@@ -44,6 +44,8 @@ public class homepage extends resource.base{
 		loginpage lp=l.getLogin(); //driver.findElement(By.css()
 		lp.email().sendKeys(Username);
 		lp.pswd().sendKeys(Password);
+System.out.println(lp.pswd());
+System.out.println(lp.email());
 
 		log.info(text);
 		
