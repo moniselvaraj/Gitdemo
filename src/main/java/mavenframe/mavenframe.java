@@ -26,7 +26,7 @@ public WebDriver driver;
 		{
 			System.setProperty("webdriver.chrome.driver", "C:\\Users\\Monisha\\Downloads\\chromedriver.exe");
 			 driver =new ChromeDriver();
-			
+		driver.getTitle();	
 		}
 		else if(browname.equals("firefox"))
 		{
@@ -36,4 +36,5 @@ public WebDriver driver;
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		return driver;
 	}
+	
 }
